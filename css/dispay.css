@@ -1,0 +1,154 @@
+.main{
+	background-color: rgb(245, 243, 164);
+	height: 70vh;
+	width: 70vw;
+	display:table;
+}
+.a{ height: 10vh;
+	width:  10vw;
+	background-color: green;
+	margin: 10px;
+	justify-content: center;
+	text-align: center;
+
+}
+h1{
+	color: blue;
+	text-align: center;
+	font-size: 3em;
+}
+#button{
+
+text-align: center;
+border:none;
+	background-color: rgb(89, 150, 255);
+	padding:15px ;
+	font-size: 1.5em;
+	color: white;
+	transition: background 500ms ease-in-out 200ms ;
+	margin:50px;
+}
+#button:hover{
+background-color: rgb(147, 187, 255);
+padding: 20px;
+}
+
+#translate{
+
+text-align: center;
+border:none;
+	background-color: rgb(89, 150, 255);
+	padding:15px ;
+	font-size: 1.5em;
+	color: white;
+	transition: background 500ms ease-in-out 200ms ;
+	transform: translate(140px, 0px);
+
+}
+
+#translate:hover{
+background-color: rgb(147, 187, 255);
+
+}
+
+#scale{
+
+text-align: center;
+border:none;
+	background-color: rgb(89, 150, 255);
+	padding:15px ;
+	font-size: 1.5em;
+	
+
+	color: white;
+	transition: background 500ms ease-in-out 200ms ;
+	transform: translate(140px, 0px);
+
+	transform: scale(1.3);
+
+}
+
+#scale:hover{
+background-color: rgb(147, 187, 255);
+
+}
+
+
+
+#rotate{
+
+text-align: center;
+border:none;
+	background-color: rgb(89, 150, 255);
+	padding:15px ;
+	font-size: 1.5em;
+	color: white;
+	transition: background 500ms ease-in-out 200ms ;
+	transform: rotate(-35deg);
+	margin: 50px;
+	transform: translate(140px, 0px);
+
+
+
+
+
+}
+
+#rotate:hover{
+background-color: rgb(147, 187, 255);
+
+}
+
+#skewX{
+
+text-align: center;
+border:none;
+	background-color: rgb(89, 150, 255);
+	padding:15px ;
+	font-size: 1.5em;
+	color: white;
+	transition: background 500ms ease-in-out 200ms ;
+	transform: skewX(-45deg);
+transform: translate(140px, 0px);
+
+}
+
+#skewX:hover{
+background-color: rgb(147, 187, 255);
+
+}
+#skewY{
+
+text-align: center;
+border:none;
+	background-color: rgb(89, 150, 255);
+	padding:15px ;
+	font-size: 1.5em;
+	color: white;
+	transition: background 500ms ease-in-out 200ms ;
+	transform: skewY(155deg);
+	margin: 50px;
+transform: translate(140px, 0px);
+
+}
+
+#skewY:hover{
+background-color: rgb(147, 187, 255);
+
+}
+#display{
+	animation-name: yellow-to-red;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-delay: -1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+
+
+}
+
+@keyframes yellow-to-red
+{
+	from{background: yellow; transform: scale(1.2); }
+	to{background: orange; transform: scale(1.5);}
+}

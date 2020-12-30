@@ -1,0 +1,185 @@
+h1:hover{
+	color:steelblue;
+	font-size: xx-large; 
+}
+.title{
+	color: purple;font-style:italic;
+}
+.subtitle{
+	color: green;
+}
+#subtitle{
+	color: red;
+}
+li:first-child{
+	color:blue;
+}
+td:nth-child(2){
+color:violet;
+}
+th:only-child{
+	color: purple;
+}
+
+
+/*h1+a{
+	color: purple;
+}*/
+textarea~button{
+	color:blue;
+}
+ul>li{
+	color:magenta;
+}
+ol li{
+	color: green;
+}
+
+}
+li:third-child i{_
+color: blue:;
+}
+/*psuedo elements*/
+article::first-line{
+	color: red;
+}
+article::first-letter{
+	font-size: xx-large;
+	font-style: cursive;
+}
+span{
+	font-style: oblique;
+	font-weight: 550;
+}
+#sec
+
+{
+	color: blue;
+}
+h1{ text-align: center;
+}
+*{ margin-left: 30px; margin-top: 30px; margin-right: 70px
+
+}
+ 
+/*img{
+	border:100px solid-black;
+
+}*/
+a:link{
+	color: blue;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: darkblue;
+}
+a:selected link{
+	color: red;
+}
+/* ATTRIBUTE SELECTOR*/
+a[target="link"]
+{
+	background-color: yellow;
+}
+a[target~="link"]{
+	background-color: yellow;
+}
+*a[target|="link"]{
+	background-color: yellow;
+}
+a[target^="link"]{
+	background-color: yellow;
+}
+/*input[type="text"]
+{
+	border-color: maroon;
+
+}*/
+
+img{
+	border-style:double; border-color:  solid-black ;
+	border-width: 7px;
+	
+	
+
+}
+
+body{
+	/*background-color: #7ed6d0;
+	background-color: rgb(126, 214, 208, 0.3);
+	background:linear-gradient(to right, rgb(126, 214, 208), rgb(126, 214, 208));
+	background-size: contain;*/
+
+/*background-image: radial-gradient(red, green, blue);*/
+background-image: url("../../kedarnath/kedarnath ");
+font-size: 6mm;
+text-decoration: none;
+text-align: justify;
+text-transform: capitalize;
+font-size:1.25em;
+font-weight: 400;
+font-family: 'PT Serif', serif;
+-
+
+}
+#div1{
+	width: 150px;
+	height: 200px;
+	background-image: radial-gradient(red, green, blue);
+}
+h1{
+	font-size: 3em;
+
+}
+/*text manupulation*/
+a{
+	text-decoration: overline;
+	text-transform: lowercase;
+
+
+}
+input[type="text"]{
+	border:inset;
+
+	border-radius: 4px;
+
+
+}
+input[type="mobile"]{
+
+	border: inset;
+
+}
+input[type="email"]{
+	border:inset;
+}
+textarea{
+	border:inset;
+}
+/*	border:3px dotted black;
+	padding: 20px 20px 5px 5px;
+	height: 350px;
+	width: 250px;
+float: left;
+}*/
+
+#k2{
+	border:4px solid black;
+	padding: 30px 5px;
+	height: 150;
+float: left;
+}
+article{
+margin-top: 200px;
+	
+}
+div{
+	clear: left;
+	margin-top: 200px;
+	margin-left:300px;
+}
+#href{
+	display:inline-table;
+}

@@ -1,0 +1,27 @@
+header{
+	color: blue;
+}
+#head{
+height: 100%;
+font-size: 3.5em;
+padding: 20px;
+margin: 10px 20px 20px 20px;
+text-align: center;
+border: 2px solid black;
+background-color:  rgb(245, 243, 164);
+font-weight: 600;
+}
+
+#nav{
+	height: 100%;
+	padding: 10px;
+	margin: 10px;
+	text-align: right;
+	background-color:;
+	color: white;
+	
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
